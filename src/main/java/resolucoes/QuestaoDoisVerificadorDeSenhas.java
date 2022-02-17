@@ -36,7 +36,7 @@ public class QuestaoDoisVerificadorDeSenhas {
         return caracteresFaltantes;
     }
 
-    private boolean verificarConteudoSenha(String regex, String campoParaVerificar) {
+    public boolean verificarConteudoSenha(String regex, String campoParaVerificar) {
         Pattern pattern = Pattern.compile(regex);
         Matcher matcher = pattern.matcher(campoParaVerificar);
         return matcher.find();

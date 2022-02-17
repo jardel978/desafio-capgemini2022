@@ -48,4 +48,40 @@ class QuestaoDoisVerificadorDeSenhasTest {
         Assertions.assertEquals(3, verificadorDeSenhas.verificarSenhaForte("asdfgh"), "Cenário positivo: case p06");
 
     }
+
+
+    @Test
+    void testandoMetodoDeVerificarConteudoSenha() {
+
+        QuestaoDoisVerificadorDeSenhas verificadorDeSenhas = new QuestaoDoisVerificadorDeSenhas();
+        var regexCaracteresMinusculos = "(?=.*[a-z])";
+        var regexCaracteresEspeciais = "(?=.*[!@#$%^&*()[-]+])";
+        var regexCaracteresMaiusculos = "(?=.*[A-Z])";
+        var regexCaracteresDigitos = "(?=.*\\d)";
+
+//        Cenário Negativo
+
+//        case n01
+        Assertions.assertNotEquals(false, verificadorDeSenhas.verificarConteudoSenha(regexCaracteresMinusculos, "Ah5" +
+                        "*fl"),
+                "Cenário negativo: case n01");
+
+//        case n02
+        Assertions.assertNotEquals(true, verificadorDeSenhas.verificarConteudoSenha(regexCaracteresEspeciais,
+                        "f4556GD"),
+                "Cenário negativo: case n02");
+
+
+//        Cenário Positivo
+
+//        case p01
+        Assertions.assertEquals(true, verificadorDeSenhas.verificarConteudoSenha(regexCaracteresMaiusculos, "8dbE4f*"),
+                "Cenário positivo: case p01");
+
+//        case p02
+        Assertions.assertEquals(false, verificadorDeSenhas.verificarConteudoSenha(regexCaracteresDigitos, "Jwd-dRF"),
+                "Cenário " +
+                "positivo: case p02");
+
+    }
 }
