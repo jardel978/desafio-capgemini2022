@@ -7,6 +7,7 @@
 <br>
 
 * [Sobre](#Sobre)
+* [Documentação](#documentacao)
 * [Tecnologias](#tecnologias)
 * [Testes](#testes)
     * [Pré-Requisitos](#pre-requisitos)
@@ -16,6 +17,11 @@
 
 <p>Resolução de desafios do processo seletivo da Academia Capgemini - 2022</p>
 <br>
+  
+# Documentação 🗎
+  
+  <p>Para acessar a documentação abra em um naveador o arquivo index.html que está presente na raiz do projeto</p>
+  <br>
 
 # Tecnologias 🛠️
 <h2>Para desenvolvimeto das soluções foram utilizadas as seguintes tecnologias:</h2>
