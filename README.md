@@ -15,7 +15,7 @@
   
   <a href="sobre">Sobre</a>
 
-# Sobre 📗
+<h2 id="sobre">Sobre 📗<h2>
 
 <p>Resolução de desafios do processo seletivo da Academia Capgemini - 2022</p>
 <br>
