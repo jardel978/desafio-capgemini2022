@@ -7,11 +7,11 @@
 <br>
 
 * [Sobre](#Sobre)
-* [Documentação](#documentacao)
-* [Tecnologias](#tecnologias)
-* [Testes](#testes)
-    * [Pré-Requisitos](#pre-requisitos)
-    * [Como executar](#como-executar)
+* [Documentação](#Documentação)
+* [Tecnologias](#Tecnologias)
+* [Testes](#Testes)
+    * [Pré-Requisitos](#Pré-Requisitos)
+    * [Executando](#Executando)
 
 # Sobre 📗
 
@@ -53,7 +53,7 @@ casos de teste negativos (quando o resultado obtido deve ser diferente do espera
 testes.</p>
 <br>
 
-## Como executar 🎲
+## Executando 🎲
 
 <p></p>
 
