@@ -13,7 +13,7 @@
     * [Pré-Requisitos](#Pré-Requisitos)
     * [Executando](#Executando) -->
   
-  <a href="sobre">Sobre</a>
+  <a href="#sobre">Sobre</a>
 
 <h2 id="sobre">Sobre 📗<h2>
 
