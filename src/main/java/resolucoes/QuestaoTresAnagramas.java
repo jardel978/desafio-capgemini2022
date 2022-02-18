@@ -6,9 +6,30 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * A classe <strong>QuestaoTresAnagramas</strong> contem a funcionalidade de analizar uma string e informar quantos
+ * anagramas de substrings ela possui
+ *
+ * @author Jardel Silva Oliveira
+ * @version 1.0
+ */
+
+
+/**
+ * Construtor gerado com o uso do Projeto Lombok<br>
+ * <strong>Uso: </strong><br>
+ *      QuestaoTresAnagramas questaoTresAnagramas = new QuestaoTresAnagramas();
+ */
 @NoArgsConstructor
 public class QuestaoTresAnagramas {
 
+
+    /**
+     * Metodo responsavel por receber uma string e retornar a quantidade de possiveis anagramas de substrings que
+     * essa string possui
+     * @param palavra String a ser analizada
+     * @return Inteiro que informa a quantidade de substrings que são anagramas encontrados
+     */
     public int encontarAnagramas(String palavra) {
 
         Map<String, Integer> substringsMap = new HashMap<>();

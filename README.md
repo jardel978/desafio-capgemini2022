@@ -17,7 +17,7 @@
 <p>Resolução de desafios do processo seletivo da Academia Capgemini - 2022</p>
 <br>
 
-# Tecnologias 💻
+# Tecnologias 🛠️
 <h2>Para desenvolvimeto das soluções foram utilizadas as seguintes tecnologias:</h2>
 <ul>
   <li>Linguagem: <a href="https://www.oracle.com/java/technologies/downloads/">Java 17 </a></li>
@@ -32,17 +32,22 @@
 
 <p>Os testes foram implementados seguindo modelo TDD - Test Driven Development, em português: Desenvolvimento guiado por testes.</p>
 <p>Como o nome já sugere, um código que é desenvolvido com essa técnica tem primeiramente implementados seus casos de testes, os quais devem falhar já que não temos nunhuma 
-funcionalidade criada ainda. Após essa etapa, escrevemos o código com as funcionalidades pretendidas e os requsitos mínimos para, quando reaplicarmos os testes, dessa vez 
+funcionalidade criada ainda. Após essa etapa, escrevemos o código com as funcionalidades pretendidas e os requsitos 
+mínimos para que, quando reaplicarmos os testes, dessa vez 
 termos resultados positivos, então podemos assim refatorar e deixar o código mas limpo e performático.</p>
+<p>Para cada unidade de código criada temos casos de teste positivos (quando o resultado esperado deve ser obtido) e 
+casos de teste negativos (quando o resultado obtido deve ser diferente do esperado).
+</p>
 <br>
 
-## Pré-requisitos
+## Pré-requisitos ⚙
 
 <p>Para executar o código que foi desenvolvido se atente em ter instalado em sua sua máquina: Java JDK 17 (versão LTS atual) e um editor código. 
-*Estarei utilizando o IntelliJ para exemplificação, porém, você pode utilizar a IDE de sua preferência e executar os testes</p>
+<br>*Estarei utilizando o IntelliJ para exemplificação, porém você pode utilizar a IDE de sua preferência e executar os 
+testes.</p>
 <br>
 
-## Como executar
+## Como executar 🎲
 
 <p></p>
 
@@ -51,9 +56,11 @@ termos resultados positivos, então podemos assim refatorar e deixar o código m
     <p>Outra IDE</p>
       <ol>
         <li>Clone este repositório: $ git clone https://github.com/jardel978/desafio-capgemini2022.git;</li>
-        <li>Abra o projeto clonado em sua IDE e caso ela não faça automaticamente, não se esqueça de baixar as depedências por meio do Maven;</li>
+        <li>Abra o projeto clonado em sua IDE e caso ela não faça automaticamente, não se esqueça de baixar as 
+dependências por meio do Maven;</li>
         <li>Se dirija até o diretório em que estão contidos os testes: src/test/java/testes escolha o arquivo de teste pretendido, abra-o e o execute.
-        *entre esses arquivos temos o TesteSuiteUm.java. Esse consiste numa suite de testes com a qual você poderá executar todos os casos de testes programados facilmente e 
+        <br>*entre esses arquivos temos o TesteSuiteUm.java. Esse consiste numa suite de testes com a qual você poderá 
+executar todos os casos de testes programados facilmente e 
         de uma só vez!</li>
       </ol>
   </li>
@@ -66,13 +73,15 @@ termos resultados positivos, então podemos assim refatorar e deixar o código m
         <li>Abra a IDE e selecione: File -> New -> Project From Existing Sources;</li>
         <li>Selecione o arquivo pom.xml que se enconta na raiz do diretório do projeto que foi clonado e clique em OK.
         A IDE irá abrir o projeto e baixar as depend6encias necessárias;</li>
-        <li>Vá até a pasta testes seguindo o caminho: src/test/java/testes, escolha o arquivo de teste que quer executar e execute-o. *para executar basta
+        <li>Vá até a pasta testes seguindo o caminho: src/test/java/testes, escolha o arquivo de teste que quer 
+executar e execute-o. <br>Para executar basta
         clicar com o botão direito do mouse sobre o código e selecionar a opção Run'classe de teste escolhida' ou Run'método específico de uma classe escolhido';.
-        *entre esses arquivos temos o TesteSuiteUm.java. Esse consiste numa suite de testes com a qual você poderá executar todos os casos de testes programados facilmente e 
+        <br>*entre esses arquivos temos o TesteSuiteUm.java. Esse consiste numa suite de testes com a qual você poderá 
+executar todos os casos de testes programados facilmente e 
         de uma só vez! Para executar essa suite siga os mesmos passos informados acima.</li>
       </ol>
   </li>
 </ul>
 <br>
-<p>Vídeo para melhores explicações</p>
-<img alt="Gif como executar suite de testes com o itellij" title="Readme" src="./capgemine2022.gif" />
+<p>Vídeo para melhores explicações?</p>
+<img alt="Gif como executar suite de testes com o itellij" title="Readme" src="./capgemini2022.gif" />

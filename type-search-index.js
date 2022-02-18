@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"resolucoes","l":"QuestaoDoisVerificadorDeSenhas"},{"p":"resolucoes","l":"QuestaoTresAnagramas"},{"p":"resolucoes","l":"QuestaoUmFazendoEscadas"},{"p":"testes","l":"TesteSuiteUm"}];updateSearchResults();
